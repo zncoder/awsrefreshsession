@@ -1,0 +1,22 @@
+{
+  "name": "awsrefreshsession",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Refresh AWS session",
+  "permissions": [
+	"tabs",
+	"storage"
+  ],
+  "icons": {
+	"48": "48.png"
+  },
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "options_page": "options.html",
+  "browser_action": {
+	"browser_style": true,
+	"default_icon": "32.png",
+	"default_title": "Refresh AWS session"
+  }
+}
